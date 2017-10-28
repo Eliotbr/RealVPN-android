@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/server_list"
+        android:icon="@drawable/ic_server_list"
+        android:orderInCategory="100"
+        android:title="Server List"
+        app:showAsAction="always|withText" />
+
+    <item
+        android:id="@+id/log_activity"
+        android:icon="@drawable/ic_logs"
+        android:orderInCategory="100"
+        android:title="Logs"
+        app:showAsAction="always|withText" />
+
+
+</menu>

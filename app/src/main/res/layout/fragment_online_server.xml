@@ -1,0 +1,17 @@
+<com.cjj.MaterialRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/refreshOnline"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:overlay="false"
+    app:wave_show="false"
+    tools:context="net.realvpn.android.manager.OnlineServerFragment">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvOnline"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp" />
+</com.cjj.MaterialRefreshLayout>

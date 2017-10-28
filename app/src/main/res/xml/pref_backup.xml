@@ -1,0 +1,7 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:summary="Backup path goes here"
+        android:title="@string/pref_backup_path"></Preference>
+    <Preference android:title="@string/pref_backup_now"></Preference>
+    <Preference android:title="@string/pref_restore_from"></Preference>
+</PreferenceScreen>

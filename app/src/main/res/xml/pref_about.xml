@@ -1,0 +1,11 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:summary="v0.1"
+        android:title="@string/pref_application_version"></Preference>
+    <Preference
+        android:summary="@string/pref_description_changelog"
+        android:title="@string/pref_changelog"></Preference>
+    <Preference
+        android:summary="@string/pref_description_rate"
+        android:title="@string/pref_rate"></Preference>
+</PreferenceScreen>
